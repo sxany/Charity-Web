@@ -1,3 +1,3 @@
-import { Navbar } from './Navbar.js';
+import { Navbar } from './navbar.js';
 
 document.getElementById("app").innerHTML = Navbar();
