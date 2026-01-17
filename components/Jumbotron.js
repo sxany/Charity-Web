@@ -1,6 +1,6 @@
 export function Jumbotron() {
   return `
-<div class=" relative z-0 w-3/4 sm:w-3/4 mx-auto mt-6 overflow-hidden">
+<div class=" relative z-0 md:w-3/4 sm:w-4/5 mx-auto mt-6 overflow-hidden">
 
   <!-- SLIDER -->
   <div id="slider"

@@ -1,6 +1,5 @@
 export function Application() {
   return `
-  <!-- WRAPPER WIDTH -->
   <div class="w-full sm:w-3/4 mx-auto mt-4 px-4 sm:px-0">
     <div class="bg-white shadow-md rounded-xl py-1">
 

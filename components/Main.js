@@ -2,10 +2,12 @@ import { Navbar } from './navbar'
 import { Jumbotron } from './Jumbotron'
 import { Application } from './Application'
 import { Cardfav } from './Cardfav'
+import { Reason } from './Reason'
+import { Footer } from './Footer'
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + Application() + Cardfav()
+    Navbar() + Jumbotron() + Application() + Cardfav() + Reason() + Footer()
 
   const slider = document.getElementById('slider')
   const slides = slider.children
