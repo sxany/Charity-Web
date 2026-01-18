@@ -25,23 +25,23 @@ export function Application() {
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
-              <span class="text-3xl">👥</span>
+              <span class="text-3xl">📢</span>
             </div>
-            <p class="mt-3 text-sm font-medium">Event</p>
+            <p class="mt-3 text-sm font-medium">Kampanye</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
-              <span class="text-3xl">🎁</span>
+              <span class="text-3xl">🧑‍🤝‍🧑</span>
             </div>
-            <p class="mt-3 text-sm font-medium">Merchandise</p>
+            <p class="mt-3 text-sm font-medium">Relawan</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
-              <span class="text-3xl">💰</span>
+              <span class="text-3xl">📊</span>
             </div>
-            <p class="mt-3 text-sm font-medium">Zakat</p>
+            <p class="mt-3 text-sm font-medium">Statistic</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
