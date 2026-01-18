@@ -41,7 +41,7 @@ export function Application() {
             <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
               <span class="text-3xl">📊</span>
             </div>
-            <p class="mt-3 text-sm font-medium">Statistic</p>
+            <p class="mt-3 text-sm font-medium">Statistik</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
