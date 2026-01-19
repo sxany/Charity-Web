@@ -2,15 +2,9 @@ export function Navbar() {
   return `
   <nav class="bg-neutral-primary relative z-50 w-full top-0 start-0 shadow-md">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-<<<<<<< HEAD
-    <a class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
-        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">AyoBantu</span>
-=======
     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./pict/logo.png" class="h-7" alt="Ayo Peduli" />
         <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">AyoPeduli</span>
->>>>>>> 40148d945472fe928eb11d9e22b118cf98943d4f
     </a>
 <!--search -->
         <div class="relative flex justify-start items-start ">
