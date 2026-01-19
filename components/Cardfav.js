@@ -1,6 +1,7 @@
 export function Cardfav() {
   return `
-  <div class="w-full mx-auto w-3/4 sm:w-3/4 mt-6 text-left">
+  <div id="donasi">
+  <div class="w-full mx-auto w-3/4 sm:w-3/4 pt-20 text-left">
     <div class="flex items-center justify-between">
       <h1 class="text-base font-medium text-heading sm:text-2xl">
         Donasi Pilihan
@@ -8,7 +9,7 @@ export function Cardfav() {
 
     </div>
 
-    <div class="max-w-7xl mx-auto mt-6 px-4">
+    <div class="max-w-7xl mx-auto  px-4">
 
       <!-- ROW 1 -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -80,11 +81,10 @@ export function Cardfav() {
         </div>
       </div>
 
-
-
       </div>
 
     </div>
+  </div>
   </div>
   `;
 }

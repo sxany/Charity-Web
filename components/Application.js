@@ -1,6 +1,6 @@
 export function Application() {
   return `
-  <div class="w-full sm:w-3/4 mx-auto mt-4 px-4 sm:px-0">
+  <div class="w-full sm:w-3/4 mx-auto mt-4  sm:px-0">
     <div class="bg-white shadow-md rounded-xl py-1">
 
     <div class="pl-4 w-3/4 sm:w-3/4 mt-6 text-left">
@@ -14,7 +14,7 @@ export function Application() {
 
 
       <div class="mt-8">
-        <div class="grid grid-cols-2 sm:grid-cols-5 gap-6 text-center">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
@@ -39,16 +39,9 @@ export function Application() {
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
-              <span class="text-3xl">📊</span>
+              <span class="text-3xl">🧑‍🤝‍🧑</span>
             </div>
-            <p class="mt-3 text-sm font-medium">Statistik</p>
-          </div>
-
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
-              <span class="text-3xl">📰</span>
-            </div>
-            <p class="mt-3 text-sm font-medium">Blog</p>
+            <p class="mt-3 text-sm font-medium">Contact</p>
           </div>
 
         </div>

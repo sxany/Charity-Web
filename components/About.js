@@ -1,11 +1,12 @@
 export function About() {
   return `
-    <div class="sm:w-3/4 mx-auto mt-8 px-4">
-      <div class="grid grid-cols-1 min-[1000px]:grid-cols-3 gap-10 items-center">
+  <div id="about">
+    <div class="sm:w-3/4 mx-auto pt-20">
+      <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-10 items-center">
 
 
         <div>
-          <h2 class="text-6xl md:text-8xl font-bold mb-6">
+          <h2 class="text-6xl md:text-7xl font-bold mb-6">
             Why we care.
           </h2>
 
@@ -28,16 +29,23 @@ export function About() {
           </p>
         </div>
 
-        
-        <div class="md:col-span-2 w-full">
-          <img 
-            src="./pict/1.png" 
-            alt="About AyoPeduli"
-            class="w-full  object-cover rounded-xl shadow-lg"
-          />
-        </div>
+    <div class="
+  block
+  md:hidden
+  lg:block
+  w-full
+  lg:col-span-2
+">
+  <img 
+    src="./pict/1.png" 
+    alt="About AyoPeduli"
+    class="w-full object-cover rounded-xl shadow-md"
+  />
+</div>
+
 
       </div>
+    </div>
     </div>
   `
 }

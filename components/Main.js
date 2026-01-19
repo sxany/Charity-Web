@@ -5,10 +5,13 @@ import { Cardfav } from './Cardfav'
 import { Reason } from './Reason'
 import { Footer } from './Footer'
 import { About } from './About'
+import { Relawan } from './Relawan'
+import { Kampanye } from './Kampanye'
+
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Reason() + Footer()
+    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Kampanye() +Relawan() + Reason() + Footer()
 
   const slider = document.getElementById('slider')
   const slides = slider.children
