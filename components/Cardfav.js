@@ -3,7 +3,7 @@ export function Cardfav() {
   <div class="w-full mx-auto w-3/4 sm:w-3/4 mt-6 text-left">
     <div class="flex items-center justify-between">
       <h1 class="text-base font-medium text-heading sm:text-2xl">
-        Kategori Favorit AyoBantu
+        Donasi Pilihan
       </h1>
 
     </div>
