@@ -1,4 +1,4 @@
-import { Navbar } from './navbar'
+import { Navbar } from './Navbar'
 import { Jumbotron } from './Jumbotron'
 import { Application } from './Application'
 import { Cardfav } from './Cardfav'
