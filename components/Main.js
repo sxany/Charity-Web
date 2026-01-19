@@ -4,10 +4,11 @@ import { Application } from './Application'
 import { Cardfav } from './Cardfav'
 import { Reason } from './Reason'
 import { Footer } from './Footer'
+import { About } from './About'
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + Application() + Cardfav() + Reason() + Footer()
+    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Reason() + Footer()
 
   const slider = document.getElementById('slider')
   const slides = slider.children

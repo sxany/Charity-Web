@@ -6,13 +6,6 @@ export function Cardfav() {
         Kategori Favorit AyoPeduli
       </h1>
 
-      <button
-        class="sm:w-[50%] md:w-[13%] mt-5 bg-blue-300 hover:bg-blue-400
-               text-white rounded-lg transition cursor-pointer
-               flex items-center justify-center gap-2 px-4 py-2">
-        Lihat lainnya
-        <i class="fa-solid fa-chevron-right text-sm"></i>
-      </button>
     </div>
 
     <div class="max-w-7xl mx-auto mt-6 px-4">
