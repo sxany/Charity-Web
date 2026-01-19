@@ -1,6 +1,6 @@
 export function Footer()    {
     return `
-    <footer class="bg-red-700 text-white pt-16 pb-10">
+    <footer class="bg-blue-700 text-white pt-16 pb-10">
   <div class="max-w-7xl mx-auto px-6">
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -8,7 +8,7 @@ export function Footer()    {
       <!-- LEFT -->
       <div>
         <h2 class="text-2xl font-bold mb-4">
-          Ayobantu<span class="font-normal">.com</span>
+          AyoPeduli<span class="font-normal">.com</span>
         </h2>
 
         <p class="text-sm leading-relaxed max-w-md">
@@ -35,7 +35,7 @@ export function Footer()    {
       <div class="md:text-right">
         <h3 class="text-2xl font-bold mb-4">Tentang</h3>
         <ul class="space-y-2 text-sm">
-          <li class="hover:underline cursor-pointer">AyoBantu</li>
+          <li class="hover:underline cursor-pointer">AyoPeduli</li>
           <li class="hover:underline cursor-pointer">Syarat & Ketentuan</li>
           <li class="hover:underline cursor-pointer">Hubungi Kami</li>
           <li class="hover:underline cursor-pointer">Partner Kami</li>
@@ -49,7 +49,7 @@ export function Footer()    {
 
     <!-- Bottom -->
     <div class="mt-16 text-sm text-center md:text-left">
-      © Yayasan Ayo Bantu Peduli Indonesia 2026
+      © Yayasan Ayo Peduli Indonesia 2026
     </div>
 
   </div>

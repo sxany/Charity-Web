@@ -5,7 +5,7 @@ export function Application() {
 
     <div class="pl-4 w-3/4 sm:w-3/4 mt-6 text-left">
     <h1 class="text-base font-medium text-heading sm:text-2xl">
-      AyoBantu mereka yang membutuhkan
+      AyoPeduli Kepada Mereka Yang Membutuhkan
     </h1>
     <h2 class="mt-0.5 pl-4w-3/4 sm:w-3/4text-base font-normal sm:text-[16px]">
       Pilih kategori favorit kamu
@@ -17,38 +17,31 @@ export function Application() {
         <div class="grid grid-cols-2 sm:grid-cols-5 gap-6 text-center">
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
+            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
               <span class="text-3xl">🤲</span>
             </div>
             <p class="mt-3 text-sm font-medium">Donasi</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
+            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
               <span class="text-3xl">📢</span>
             </div>
             <p class="mt-3 text-sm font-medium">Kampanye</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
+            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
               <span class="text-3xl">🧑‍🤝‍🧑</span>
             </div>
             <p class="mt-3 text-sm font-medium">Relawan</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
+            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
               <span class="text-3xl">📊</span>
             </div>
             <p class="mt-3 text-sm font-medium">Statistik</p>
-          </div>
-
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-red-100 flex items-center justify-center">
-              <span class="text-3xl">📰</span>
-            </div>
-            <p class="mt-3 text-sm font-medium">Blog</p>
           </div>
 
         </div>

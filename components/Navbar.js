@@ -4,7 +4,7 @@ export function Navbar() {
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="./pict/logo.png" class="h-7" alt="Ayo Peduli" />
-        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">AyoBantu</span>
+        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">AyoPeduli</span>
     </a>
 <!--search -->
         <div class="relative flex justify-start items-start ">
