@@ -1,6 +1,6 @@
 export function Reason() {
     return `
-    <section class="w-full py-8">
+    <section class="w-full py-8 hidden">
   <div class="max-w-7xl mx-auto px-4 text-center">
 
     <!-- Title -->

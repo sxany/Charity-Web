@@ -1,18 +1,18 @@
-import { Navbar } from './Navbar'
-import { Jumbotron } from './Jumbotron'
-import { Application } from './Application'
-import { Cardfav } from './Cardfav'
-import { Reason } from './Reason'
-import { Footer } from './Footer'
-import { About } from './About'
-import { Relawan } from './Relawan'
-import { Kampanye } from './Kampanye'
+import { Navbar } from './components/Navbar'
+import { Jumbotron } from './components/Jumbotron'
+import { Application } from './components/Application'
+import { Cardfav } from './components/Cardfav'
+import { Reason } from './components/Reason'
+import { Footer } from './components/Footer'
+import { About } from './components/About'
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Kampanye() +Relawan() + Reason() + Footer()
-
+    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Reason() + Footer()  
+  
   const slider = document.getElementById('slider')
   const slides = slider.children
   const total = slides.length
