@@ -9,15 +9,15 @@ export function Reason() {
         Kenapa
       </h2>
       <div class="flex items-center gap-2">
-        <div class="w-10 h-10 rounded-full bg-red-600 flex items-center justify-center text-white font-bold">
-          ♥
+        <div class="w-10 h-10 rounded-full bg-white-600 flex items-center justify-center text-white font-bold">
+          💙
         </div>
-        <span class="text-xl font-semibold text-red-600">ayobantu</span>
+        <span class="text-xl font-semibold text-blue-600">AyoPeduli</span>
       </div>
     </div>
 
     <p class="mt-4 text-gray-600">
-      #AyoBantu sesama yang membutuhkan
+      #AyoPeduli sesama yang membutuhkan
     </p>
 
     <!-- Features -->
@@ -25,14 +25,14 @@ export function Reason() {
 
       <!-- Item 1 -->
       <div class="flex flex-col items-center text-center">
-        <div class="text-red-600 text-5xl mb-6">
-          ❤️
+        <div class="text-blue-600 text-5xl mb-6">
+          💙
         </div>
         <h3 class="text-xl font-semibold text-gray-800 mb-3">
-          Bantu
+          Peduli
         </h3>
         <p class="text-gray-600 text-sm leading-relaxed">
-          #AyoBantu sesama yang membutuhkan
+          #AyoPeduli sesama yang membutuhkan
         </p>
       </div>
 
@@ -59,7 +59,7 @@ export function Reason() {
           Tepat Sasaran
         </h3>
         <p class="text-gray-600 text-sm leading-relaxed">
-          Program penggalangan dana di AyoBantu
+          Program penggalangan dana di AyoPeduli
           dapat dipertanggungjawabkan kebenarannya
         </p>
       </div>

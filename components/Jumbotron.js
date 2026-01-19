@@ -9,8 +9,6 @@ export function Jumbotron() {
     <img src="/pict/1.png" class="w-full flex-shrink-0 object-cover">
     <img src="/pict/2.png" class="w-full flex-shrink-0 object-cover">
     <img src="/pict/3.png" class="w-full flex-shrink-0 object-cover">
-    <img src="/pict/4.png" class="w-full flex-shrink-0 object-cover">
-    <img src="/pict/5.png" class="w-full flex-shrink-0 object-cover">
 
   </div>
 
