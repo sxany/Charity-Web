@@ -28,7 +28,7 @@ export function Relawan() {
     }, 0);
 
     return `
-    <section id="relawan" class="mt-8 flex items-center justify-center pt-20">
+    <section id="relawan" class="mt-8 flex items-center justify-center">
       <div class="w-full max-w-xl bg-white p-8 rounded-xl shadow">
 
         <h1 class="text-xl sm:text-2xl font-medium text-heading text-center mb-6">
