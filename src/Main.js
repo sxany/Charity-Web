@@ -6,14 +6,15 @@ import { Reason } from './components/Reason'
 import { Footer } from './components/Footer'
 import { About } from './components/About'
 import { Testi } from './components/Testi'
-
+import { Mission } from './components/Mission'
+import { Vision } from './components/Vision'
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + About() + Testi()+ Application() + Cardfav() + Reason() + Footer()  
-  
+    Navbar() + Jumbotron() + About() + Testi() + Mission() + Vision() + Application()  + Cardfav() + Reason() + Footer()  
+
   const slider = document.getElementById('slider')
   const slides = slider.children
   const total = slides.length

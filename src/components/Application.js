@@ -1,6 +1,6 @@
 export function Application() {
   return `
-  <div class="w-full sm:w-3/4 mx-auto mt-4  sm:px-0">
+  <div id="kategori" class="w-full sm:w-3/4 mx-auto mt-4 pt-16 md:px-0">
     <div class="bg-white shadow-md rounded-xl py-1">
 
     <div class="pl-4 w-3/4 sm:w-3/4 mt-6 text-left">
@@ -16,7 +16,8 @@ export function Application() {
       <div class="mt-8">
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
 
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
+          <div onclick="window.open('../page', '_blank')"
+          class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
               <img src="./pict/donasi.png" class="w-10 h-10"></img>
             </div>
