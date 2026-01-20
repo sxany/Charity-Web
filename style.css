@@ -4,3 +4,63 @@ html {
   scroll-behavior: smooth;
     
 }
+.donasi-page {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.donasi-page h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.donasi-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.statistik {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.statistik small {
+    color: #888;
+}
+
+.donasi-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.donasi-form input,
+.donasi-form select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.donasi-form button {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.donasi-form button:hover {
+    background: #1e40af;
+}

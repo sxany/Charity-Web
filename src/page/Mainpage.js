@@ -1,5 +1,5 @@
 import { PageLayout } from './Layout.js'
-import { Donasi } from './Donasi.js'
+import { Donasi} from './Donasi.js'
 import { Relawan } from './Relawan.js'
 import { Kampanye } from './Kampanye.js'
 import { Login } from './Login.js'
