@@ -1,7 +1,7 @@
 import { Navbar } from './components/Navbar'
 import { Jumbotron } from './components/Jumbotron'
 import { Application } from './components/Application'
-import { Cardfav } from './components/Cardfav'
+import { Kampanye } from './components/Kampanye'
 import { Reason } from './components/Reason'
 import { Footer } from './components/Footer'
 import { About } from './components/About'
@@ -13,7 +13,7 @@ import { Vision } from './components/Vision'
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + About() + Testi() + Mission() + Vision() + Application()  + Cardfav() + Reason() + Footer()  
+    Navbar() + Jumbotron() + About() + Testi() + Mission() + Vision() + Application()  + Kampanye() + Reason() + Footer()  
 
   const slider = document.getElementById('slider')
   const slides = slider.children

@@ -1,6 +1,6 @@
-export function Cardfav() {
+export function Kampanye() {
   return `
-  <section id="kampanye" class="pt-20 pb-24">
+  <section id="kampanye" class="pt-20 pb-24  ">
     <div class="max-w-7xl mx-auto px-4 text-left">
 
       <div class="flex items-center justify-between mb-6">
@@ -28,7 +28,7 @@ export function Cardfav() {
                 terkumpul dari Rp 100.000.000
               </p>
             </div>
-            <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+            <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
               Donasi
             </button>
           </div>
@@ -50,7 +50,7 @@ export function Cardfav() {
                 terkumpul dari Rp 200.000.000
               </p>
             </div>
-            <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+            <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
               Donasi
             </button>
           </div>
@@ -72,7 +72,7 @@ export function Cardfav() {
                 terkumpul dari Rp 20.000.000
               </p>
             </div>
-            <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+            <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
               Donasi
             </button>
           </div>
@@ -99,7 +99,7 @@ export function Cardfav() {
           terkumpul dari Rp 50.000.000
         </p>
       </div>
-      <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+      <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
         Donasi
       </button>
     </div>
@@ -121,7 +121,7 @@ export function Cardfav() {
           terkumpul dari Rp 50.000.000
         </p>
       </div>
-      <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+      <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
         Donasi
       </button>
     </div>
@@ -143,7 +143,7 @@ export function Cardfav() {
           terkumpul dari Rp 50.000.000
         </p>
       </div>
-      <button class="w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
+      <button onclick="window.open('/page.html?type=donasi', '_blank')" class="cursor-pointer w-full mt-5 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition">
         Donasi
       </button>
     </div>
