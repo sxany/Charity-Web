@@ -16,7 +16,7 @@ export function Application() {
       <div class="mt-8">
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
 
-          <div onclick="window.open('../page', '_blank')"
+          <div onclick="window.open('/page.html?type=donasi', '_blank')"
           class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
               <img src="./pict/donasi.png" class="w-10 h-10"></img>
@@ -24,21 +24,21 @@ export function Application() {
             <p class="mt-3 text-sm font-medium">Donasi</p>
           </div>
 
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
+          <div onclick="window.open('/page.html?type=kampanye', '_blank')" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
               <img src="./pict/kampanye.png" class="w-16 h-14"></img>
             </div>
             <p class="mt-3 text-sm font-medium">Kampanye</p>
           </div>
 
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
+          <div onclick="window.open('/page.html?type=relawan', '_blank')" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
               <img src="./pict/relawan.png" class="w-18 h-20"></img>
             </div>
             <p class="mt-3 text-sm font-medium">Relawan</p>
           </div>
 
-          <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
+          <div onclick="window.open('/page.html?type=login', '_blank')" class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
             <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
               <img src="./pict/login.png" class="w-10 h-10"></img>
             </div>
