@@ -17,31 +17,31 @@ export function Application() {
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
-              <span class="text-3xl">🤲</span>
+            <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
+              <img src="./pict/donasi.png" class="w-10 h-10"></img>
             </div>
             <p class="mt-3 text-sm font-medium">Donasi</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
-              <span class="text-3xl">📢</span>
+            <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
+              <img src="./pict/kampanye.png" class="w-16 h-14"></img>
             </div>
             <p class="mt-3 text-sm font-medium">Kampanye</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
-              <span class="text-3xl">🧑‍🤝‍🧑</span>
+            <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
+              <img src="./pict/relawan.png" class="w-18 h-20"></img>
             </div>
             <p class="mt-3 text-sm font-medium">Relawan</p>
           </div>
 
           <div class="flex flex-col items-center cursor-pointer hover:opacity-80 transition">
-            <div class="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center">
-              <span class="text-3xl">🧑‍🤝‍🧑</span>
+            <div class="w-20 h-20 rounded-full bg-blue-200 flex items-center justify-center">
+              <img src="./pict/login.png" class="w-10 h-10"></img>
             </div>
-            <p class="mt-3 text-sm font-medium">Contact</p>
+            <p class="mt-3 text-sm font-medium">Login</p>
           </div>
 
         </div>

@@ -32,13 +32,6 @@ export function Navbar() {
         <li>
           <a href="#donasi" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Donasi</a>
         </li>
-        <li>
-          <a href="#kampanye" 
-           class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Kampanye</a>
-        </li>
-        <li>
-          <a href="#relawan" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Relawan</a>
-        </li>
       </ul>
     </div>
   </div>

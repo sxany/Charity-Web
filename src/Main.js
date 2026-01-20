@@ -5,13 +5,14 @@ import { Cardfav } from './components/Cardfav'
 import { Reason } from './components/Reason'
 import { Footer } from './components/Footer'
 import { About } from './components/About'
+import { Testi } from './components/Testi'
 
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
-    Navbar() + Jumbotron() + About() + Application() + Cardfav() + Reason() + Footer()  
+    Navbar() + Jumbotron() + About() + Testi()+ Application() + Cardfav() + Reason() + Footer()  
   
   const slider = document.getElementById('slider')
   const slides = slider.children
