@@ -1,11 +1,11 @@
 export function Cardfav() {
   return `
-  <section id="donasi" class="pt-20 pb-24">
+  <section id="kampanye" class="pt-20 pb-24">
     <div class="max-w-7xl mx-auto px-4 text-left">
 
       <div class="flex items-center justify-between mb-6">
         <h1 class="text-base font-medium text-heading sm:text-2xl">
-          Donasi Pilihan
+          Kampanye Pilihan
         </h1>
       </div>
 

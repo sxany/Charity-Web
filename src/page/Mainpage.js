@@ -1,13 +1,11 @@
 import { PageLayout } from './Layout.js'
 import { Donasi} from './Donasi.js'
 import { Relawan } from './Relawan.js'
-import { Kampanye } from './Kampanye.js'
 import { Login } from './Login.js'
 
 const routes = {
   donasi: Donasi,
   relawan: Relawan,
-  kampanye: Kampanye,
   login: Login
 }
 
