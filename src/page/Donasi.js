@@ -1,5 +1,5 @@
 export function Donasi() {
-    // tunggu DOM dirender
+
     setTimeout(() => {
         const form = document.getElementById("formDonasi");
         const message = document.getElementById("donasiMessage");

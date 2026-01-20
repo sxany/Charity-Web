@@ -11,12 +11,6 @@ export function Footer()    {
           AyoPeduli<span class="font-normal">.com</span>
         </h2>
 
-        <p class="text-sm leading-relaxed max-w-md">
-          Kami telah memiliki Izin Pengumpulan Uang dan Barang
-          untuk Non Bencana di Kementerian Sosial Republik Indonesia
-          dengan no surat izin 280/HUK-PS/2025
-        </p>
-
         <!-- Social -->
         <div class="flex gap-3 mt-6">
           <a class="w-10 h-10 rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-red-700 transition cursor-pointer">

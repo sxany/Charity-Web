@@ -11,7 +11,7 @@ export function Vision() {
           </h2>
 
           <p class="text-base sm:text-1xl md:text-2xl">
-                Menjadi platform charity tepercaya yang menumbuhkan kepedulian,
+                Menjadi platform charity terpercaya yang menumbuhkan kepedulian,
                 memperkuat semangat berbagi, dan menghadirkan dampak nyata
                 bagi masyarakat secara berkelanjutan.
             <br /><br />
