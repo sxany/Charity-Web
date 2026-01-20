@@ -12,8 +12,9 @@ export function Relawan() {
             const nama = document.getElementById("namaRelawan").value.trim();
             const telp = document.getElementById("telpRelawan").value.trim();
             const alasan = document.getElementById("alasan").value.trim();
+            const kampanye = document.getElementById("kampanye").value;
 
-            if (!nama || !telp || !alasan) {
+            if (!nama || !telp || !alasan || !kampanye) {
                 message.textContent = "⚠️ Semua field wajib diisi";
                 message.className = "mt-4 text-red-500 text-center";
                 return;
@@ -22,13 +23,25 @@ export function Relawan() {
             message.textContent =
                 "✅ Pendaftaran relawan berhasil! Terima kasih sudah bergabung 🙏";
             message.className = "mt-4 text-green-600 text-center font-medium";
+            
+            const relawanData = JSON.parse(localStorage.getItem("relawanData")) || [];
+
+            relawanData.push({
+                nama,
+                telp,
+                alasan,
+                kampanye,
+                tanggal: new Date().toLocaleDateString("id-ID"),
+            });
+
+            localStorage.setItem("relawanData", JSON.stringify(relawanData));
 
             form.reset();
         });
     }, 0);
 
     return `
-    <section id="relawan" class="mt-8 flex items-center justify-center pt-20">
+    <section id="relawan" class="mt-8 flex items-center justify-center">
       <div class="w-full max-w-xl bg-white p-8 rounded-xl shadow">
 
         <h1 class="text-xl sm:text-2xl font-medium text-heading text-center mb-6">
@@ -48,6 +61,7 @@ export function Relawan() {
               class="w-full px-4 py-2 border rounded-lg
                      focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="Nama lengkap"
+              required
             />
           </div>
 
@@ -62,7 +76,28 @@ export function Relawan() {
               class="w-full px-4 py-2 border rounded-lg
                      focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="No Telepon"
+              required
             />
+          </div>
+
+          <div class="flex flex-col">
+            <label class="block mb-1 font-medium">
+              Pilih Kampanye
+            </label>
+            <select
+              id="kampanye"
+              class="w-full px-4 py-2 border rounded-lg
+                     focus:ring-2 focus:ring-blue-500 outline-none"
+              required
+            >
+              <option value="">Pilih Kampanye yang Ingin Didukung</option>
+              <option value="Bersama AyoPeduli, Bangkitkan Sumatera dari Banjir">Bersama AyoPeduli, Bangkitkan Sumatera dari Banjir</option>
+              <option value="Hentikan Deforestasi, Sejuta Pohon Untuk Indonesia">Hentikan Deforestasi, Sejuta Pohon Untuk Indonesia</option>
+              <option value="Ayo Bantu Pendidikan Anak Indonesia">Ayo Bantu Pendidikan Anak Indonesia</option>
+              <option value="Bantu Korban Gempa Bangkit Kembali">Bantu Korban Gempa Bangkit Kembali</option>
+              <option value="Sedekah Makanan Untuk Dhuafa di Palangkaraya">Sedekah Makanan Untuk Dhuafa di Palangkaraya</option>
+              <option value="Wakaf Al-Qur'an Untuk Pelosok Negeri">Wakaf Al-Qur'an Untuk Pelosok Negeri</option>
+            </select>
           </div>
 
           <div>
@@ -73,6 +108,7 @@ export function Relawan() {
               class="w-full px-4 py-2 border rounded-lg
                      focus:ring-2 focus:ring-blue-500 outline-none"
               placeholder="Alasan ingin menjadi relawan"
+              required
             ></textarea>
           </div>
 

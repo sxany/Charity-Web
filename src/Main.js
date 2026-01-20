@@ -10,7 +10,6 @@ import { Mission } from './components/Mission'
 import { Vision } from './components/Vision'
 
 
-
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('app').innerHTML =
     Navbar() + Jumbotron() + About() + Testi() + Mission() + Vision() + Application()  + Kampanye() + Reason() + Footer()  

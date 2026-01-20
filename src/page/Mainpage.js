@@ -2,11 +2,13 @@ import { PageLayout } from './Layout.js'
 import { Donasi} from './Donasi.js'
 import { Relawan } from './Relawan.js'
 import { Login } from './Login.js'
+import { Dashboard } from './Dashboard.js'
 
 const routes = {
   donasi: Donasi,
   relawan: Relawan,
-  login: Login
+  login: Login,
+  dashboard : Dashboard
 }
 
 document.addEventListener('DOMContentLoaded', () => {
