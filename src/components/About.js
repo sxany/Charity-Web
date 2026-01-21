@@ -33,7 +33,7 @@ export function About() {
   
       </div>
     </div>
- <p class="text-center pt-10 w-2/4 text-base font-medium mx-auto md:text-2xl">
+ <p class="text-center italic pt-10 w-2/4 text-base font-medium mx-auto md:text-2xl">
  Kami percaya bahwa setiap bentuk kepedulian sekecil apa pun memiliki kekuatan untuk menghadirkan perubahan nyata dan menumbuhkan harapan bagi sesama. Oleh karena itu kami terus berupaya membangun ekosistem berbagi yang tepercaya, berkelanjutan, dan berdampak bagi masyarakat luas.
  
  </p>
