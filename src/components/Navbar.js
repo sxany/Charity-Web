@@ -9,13 +9,6 @@ export function Navbar() {
   </span>
 </a>
 
-<!--search -->
-        <div class="relative flex justify-start items-start ">
-          <input type="text" placeholder="Search..." class="sm:w-64 md:w-[500px] py-1 px-4 rounded-xl
-         border border-gray-400
-         focus:outline-none focus:ring-2 focus:ring-brand">
-        </div>
-<!--end search -->
 <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
