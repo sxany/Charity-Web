@@ -24,7 +24,7 @@ export function About() {
   w-full
 ">
   <img 
-    src="./pict/1.png" 
+    src="./pict/togeter.png" 
     alt="About AyoPeduli"
     class="w-full object-cover rounded-lg"
   />

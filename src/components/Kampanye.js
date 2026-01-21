@@ -85,7 +85,7 @@ export function Kampanye() {
 
   <!-- CARD 4 -->
   <div class="bg-white rounded-xl shadow-md overflow-hidden">
-    <img src="./pict/4.png">
+    <img src="./pict/donasi korban.jpeg">
     <div class="p-5">
       <h3 class="text-base font-semibold text-gray-800">
         Bantu Korban Gempa Bangkit Kembali
@@ -107,7 +107,7 @@ export function Kampanye() {
 
   <!-- CARD 5 -->
   <div class="bg-white rounded-xl shadow-md overflow-hidden">
-    <img src="./pict/5.png">
+    <img src="./pict/makanan.jpeg">
     <div class="p-5">
       <h3 class="text-base font-semibold text-gray-800">
         Sedekah Makanan Untuk Dhuafa di Palangkaraya
@@ -129,7 +129,7 @@ export function Kampanye() {
 
   <!-- CARD 6 -->
   <div class="bg-white rounded-xl shadow-md overflow-hidden">
-    <img src="./pict/5.png">
+    <img src="./pict/alwuran.jpeg">
     <div class="p-5">
       <h3 class="text-base font-semibold text-gray-800">
         Wakaf Al-Qur’an Untuk Pelosok Negeri

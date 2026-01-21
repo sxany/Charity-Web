@@ -23,7 +23,7 @@ export function Vision() {
   w-full
 ">
   <img 
-    src="./pict/1.png" 
+    src="./pict/visi.jpeg" 
     alt="About AyoPeduli"
     class="w-full object-cover rounded-lg"
   />
