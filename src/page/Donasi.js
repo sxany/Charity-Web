@@ -52,7 +52,7 @@ export function Donasi() {
     }, 0);
 
     return `
-        <section class="pt-20 px-6 max-w-4xl mx-auto">
+        <section style="font-family: 'Forum', serif;" class="pt-20 px-6 max-w-4xl mx-auto">
             <div class="text-center mb-10">
                 <h1 class="text-3xl font-bold text-gray-800 mb-2">Halaman Donasi</h1>
                 <p class="text-gray-600">Bersama kita bantu sesama 💚</p>

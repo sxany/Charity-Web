@@ -4,10 +4,13 @@ export function Application() {
     <div class="bg-white shadow-md rounded-xl py-1">
 
     <div class="pl-4 w-3/4 sm:w-3/4 mt-6 text-left">
-    <h1 class="text-base font-medium text-heading sm:text-2xl">
+    <h1 style="font-family: 'Forum', serif;
+  font-weight: 800;
+" class="text-base font-medium text-heading sm:text-2xl">
       AyoPeduli Kepada Mereka Yang Membutuhkan
     </h1>
-    <h2 class="mt-0.5 pl-4w-3/4 sm:w-3/4text-base font-normal sm:text-[16px]">
+    <h2 style="font-family: 'Forum', serif;
+  font-weight: 400;" class="mt-0.5 pl-4w-3/4 sm:w-3/4text-base font-normal sm:text-[16px]">
       Pilih kategori favorit kamu
     </h2>
   </div>

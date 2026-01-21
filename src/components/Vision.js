@@ -6,11 +6,13 @@ export function Vision() {
 
 
         <div>
-          <h2 class="text-6xl md:text-5xl font-bold mb-2">
+          <h2 style="font-family: 'Forum', serif;
+  font-weight: 800;" class="text-6xl md:text-5xl font-bold mb-2">
             Visi Kami
           </h2>
 
-          <p class="text-base sm:text-1xl md:text-2xl">
+          <p style="font-family: 'Forum', serif;
+  font-weight: 400;" class="text-base sm:text-1xl md:text-2xl">
                 Menjadi platform charity terpercaya yang menumbuhkan kepedulian,
                 memperkuat semangat berbagi, dan menghadirkan dampak nyata
                 bagi masyarakat secara berkelanjutan.

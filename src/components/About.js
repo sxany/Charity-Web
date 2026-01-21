@@ -6,11 +6,13 @@ export function About() {
 
 
         <div>
-          <h2 class="text-6xl md:text-5xl font-bold mb-6">
+          <h2 style="font-family: 'Forum', serif;" class="text-6xl md:text-5xl font-bold mb-6">
             Together for Humanity
           </h2>
 
-          <p class="text-base sm:text-1xl md:text-2xl">
+          <p  style="font-family: 'Forum', serif;
+  font-weight: 400;
+  font-style: normal;" class="text-base sm:text-1xl md:text-2xl">
             AyoPeduli adalah platform web charity yang hadir sebagai penghubung
             kebaikan antara para dermawan dan mereka yang membutuhkan bantuan.
             Kami berkomitmen membantu sesama melalui penggalangan dana yang
@@ -33,7 +35,9 @@ export function About() {
   
       </div>
     </div>
- <p class="text-center italic pt-10 w-2/4 text-base font-medium mx-auto md:text-2xl">
+ <p style="font-family: 'Forum', serif;
+
+  font-style: normal;" class="text-center italic pt-10 w-2/4 text-base font-medium mx-auto md:text-2xl">
  Kami percaya bahwa setiap bentuk kepedulian sekecil apa pun memiliki kekuatan untuk menghadirkan perubahan nyata dan menumbuhkan harapan bagi sesama. Oleh karena itu kami terus berupaya membangun ekosistem berbagi yang tepercaya, berkelanjutan, dan berdampak bagi masyarakat luas.
  
  </p>

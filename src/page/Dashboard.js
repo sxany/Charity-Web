@@ -5,7 +5,7 @@ export function Dashboard() {
     }, 0);
 
     return `
-    <section class="pt-20 px-6 max-w-6xl mx-auto space-y-10">
+    <section style="font-family: 'Forum', serif;" class="pt-20 px-6 max-w-6xl mx-auto space-y-10">
 
       <h1 class="text-2xl font-semibold">Dashboard Admin</h1>
 

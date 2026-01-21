@@ -1,6 +1,6 @@
 export function Login() {
     return `
-    <section id="login" class=" flex items-center justify-center">
+    <section style="font-family: 'Forum', serif;" id="login" class=" flex items-center justify-center">
       <div class="w-full max-w-md bg-white p-8 rounded-xl shadow">
 
         <h1 class="text-xl sm:text-2xl font-medium text-heading text-center mb-6">

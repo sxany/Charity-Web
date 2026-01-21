@@ -4,13 +4,14 @@ export function Kampanye() {
     <div class="max-w-7xl mx-auto px-4 text-left">
 
       <div class="flex items-center justify-between mb-6">
-        <h1 class="text-base font-medium text-heading sm:text-2xl">
+        <h1 style="font-family: 'Forum', serif;
+  font-weight: 800;" class="text-base font-medium text-heading sm:text-2xl">
           Kampanye Pilihan
         </h1>
       </div>
 
       <!-- ROW 1 -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div style="font-family: 'Forum', serif;" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <!-- CARD 1 -->
         <div class="bg-white rounded-xl shadow-md overflow-hidden">
@@ -81,7 +82,7 @@ export function Kampanye() {
       </div>
 
       <!-- ROW 2 -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+<div style="font-family: 'Forum', serif;" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
 
   <!-- CARD 4 -->
   <div class="bg-white rounded-xl shadow-md overflow-hidden">

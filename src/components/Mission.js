@@ -14,11 +14,15 @@ export function Mission() {
         </div>
 
         <div>
-          <h2 class="text-4xl md:text-5xl font-bold mb-2">
+          <h2 style="font-family: 'Forum', serif;
+  font-weight: 800;
+  font-style: normal;" class="text-4xl md:text-5xl font-bold mb-2">
             Misi Kami
           </h2>
 
-          <p class="text-base md:text-xl leading-relaxed">
+          <p style="font-family: 'Forum', serif;
+  font-weight: 400;
+  font-style: normal;" class="text-base md:text-xl leading-relaxed">
             Menyalurkan donasi secara transparan, aman, dan bertanggung jawab dengan memanfaatkan teknologi untuk mempermudah masyarakat berbagi memperluas jangkauan aksi sosial serta memastikan setiap bantuan tepat sasaran dan memberi dampak nyata bagi mereka yang membutuhkan.
           </p>
 
