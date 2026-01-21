@@ -13,7 +13,6 @@ export function Mission() {
           />
         </div>
 
-1
         <div>
           <h2 class="text-4xl md:text-5xl font-bold mb-2">
             Misi Kami
